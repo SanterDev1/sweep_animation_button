@@ -6,10 +6,6 @@ New package enables you to create a button move with other properties to discove
 
 --------------------------------------------------------------------------------
 
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://github.com/SanterDev1/sweep_animation_button/blob/main/LICENSE)
-
---------------------------------------------------------------------------------
-
 Usage Exemple 1
 -----
 
