@@ -6,7 +6,27 @@ New package enables you to create a button move with other properties to discove
 
 --------------------------------------------------------------------------------
 
-Usage Exemple 1
+## Getting Started
+
+In the `pubspec.yaml` of your flutter project, add the following dependency:
+
+```yaml
+dependencies:
+  ...
+  sweep_animation_button: ^0.0.1
+```
+
+Import it:
+
+```dart
+import 'package:sweep_animation_button/sweep_animation_button.dart';
+```
+--------------------------------------------------------------------------------
+
+## Usage Examples
+--------------------------------------------------------------------------------
+
+### Exemple 1
 -----
 
 ```dart
@@ -59,7 +79,7 @@ https://github.com/SanterDev1/sweep_animation_button/assets/136260769/5ddc5007-5
 
 --------------------------------------------------------------------------------
 
-Usage Exemple 2
+### Exemple 2
 -----
 
 ```dart
