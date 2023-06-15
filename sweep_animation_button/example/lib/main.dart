@@ -1,5 +1,6 @@
 
 // ignore_for_file: avoid_print
+import 'package:example/test_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:sweep_animation_button/sweep_animation_button.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyHomePage()
+      home: MyWidget()
     );
   }
 }
@@ -29,7 +30,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: SweepAnimationButton(
-          width: 200,
+          width: 250,
           height: 50,
           animationProgressColor: Colors.green[800],
           borderRadius: 50,

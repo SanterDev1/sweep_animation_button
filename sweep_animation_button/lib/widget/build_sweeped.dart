@@ -94,7 +94,8 @@ class _BuildSweepedState extends State<BuildSweeped>
           children: [
             FadeTransition(
               opacity: (widget.sweepedPosition! == widget.height!)
-                  ? _animation : Tween<double>(begin: 1, end: 1).animate(_controller),
+                  ? _animation
+                  : Tween<double>(begin: 1, end: 1).animate(_controller),
               child: Container(
                 width: widget.height!,
                 height: widget.height!,

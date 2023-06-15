@@ -3,8 +3,8 @@ library sweep_animation_button;
 
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
-import 'src/widget/build_progress_circle.dart';
-import 'src/widget/build_sweeped.dart';
+import 'widget/build_progress_circle.dart';
+import 'widget/build_sweeped.dart';
 
 class SweepAnimationButton extends StatefulWidget {
   /// Size Backround Width [width] .
@@ -108,6 +108,7 @@ class _SweepAnimationButtonState extends State<SweepAnimationButton>
   }
 
   Function() get onTapEnd => widget.onTap!;
+  double get paddingSize => widget.height!;
   late double soliderSweepedValue;
   bool visibility = false;
   sweepedDownDetector(double sweepedPosition) {
@@ -159,7 +160,7 @@ class _SweepAnimationButtonState extends State<SweepAnimationButton>
               children: [
                 Align(child: FittedBox(
                   child: Padding(
-                    padding: const EdgeInsets.only(left: 40),
+                    padding: const EdgeInsets.only(left: 10),
                     child: widget.child!,
                   ),
                 )),
