@@ -75,7 +75,8 @@ SweepAnimationButton(
   ),
   
 ```
-https://github.com/SanterDev1/sweep_animation_button/assets/136260769/5ddc5007-5ee9-4998-a879-348ea72481f3
+
+![Exemple_1](https://github.com/SanterDev1/sweep_animation_button/assets/136260769/fc214de8-974a-4671-bb78-617841d5c0a8)
 
 --------------------------------------------------------------------------------
 
@@ -108,7 +109,8 @@ SweepAnimationButton(
   ),
   
 ```
-https://github.com/SanterDev1/sweep_animation_button/assets/136260769/75492051-c48d-4785-8fc5-c70d8291245e
+
+![Exemple_2](https://github.com/SanterDev1/sweep_animation_button/assets/136260769/ae796881-ad28-411c-8a1d-5197614aa199)
 
 --------------------------------------------------------------------------------
 
