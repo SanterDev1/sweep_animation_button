@@ -13,7 +13,7 @@ In the `pubspec.yaml` of your flutter project, add the following dependency:
 ```yaml
 dependencies:
   ...
-  sweep_animation_button: ^0.0.1
+  sweep_animation_button: ^0.0.3
 ```
 
 Import it:
